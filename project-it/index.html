@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Project-IT</title>
+    <!-------------------------- All Css File--------------------------->
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Magnific Popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Owl Carousel css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <!-- Slicknav css -->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!---------------------End All Css File----------------------------->
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+   <script src="assets/js/jssor.slider-23.1.1.min.js"></script>
+   <script type="text/javascript">
+    jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,$Zoom:1,$Easing:{$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad},$Opacity:2},
+              {$Duration:1000,$Zoom:11,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Zoom:1,$Rotate:1,$During:{$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
+              {$Duration:1000,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.8}},
+              {$Duration:1200,x:0.5,$Cols:2,$Zoom:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:4,$Cols:2,$Zoom:11,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Left:$Jease$.$Swing,$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
+              {$Duration:1000,x:-4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.8}},
+              {$Duration:1200,x:-0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Left:$Jease$.$Swing,$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
+              {$Duration:1000,x:4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.8}},
+              {$Duration:1200,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
+              {$Duration:1000,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Top:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.7}},
+              {$Duration:1200,x:-4,y:2,$Rows:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Row:28},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
+              {$Duration:1200,x:1,y:2,$Cols:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:19},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.8}}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $FillMode: 2,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 6,
+                $SpacingY: 6,
+                $Orientation: 2,
+                $Align: 1
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1140);
+                    refSize = Math.max(refSize, 300);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+   
+   
+    <!--Header Area-->
+    <div class="header_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="logo_area">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="This is logo"></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9">
+                    <div class="banner_area">
+                        <img src="assets/img/banner.jpg" alt="banner-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header Area End-->
+    <!--Menu Area-->
+    <div class="menu_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="responsive_menu_wrap"></div>
+                    <div class="main_menu wow fadeInUp" data-wow-duration="1s">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">home</a></li>
+                                <li><a href="blog.html">blog</a></li>
+                                <li><a href="#">course</a>
+                                    <ul>
+                                        <li><a href="#">course-1</a></li>
+                                        <li><a href="#">course-2</a></li>
+                                        <li><a href="#">course-3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">center search</a></li>
+                                <li><a href="#">exam result</a></li>
+                                <li><a href="#">online registration</a>
+                                    <ul>
+                                        <li><a href="#">new center</a></li>
+                                        <li><a href="#">student registration</a></li>
+                                        <li><a href="#">any query</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="gallery.html">gallery</a></li>
+                                <li><a href="#">contact</a></li>
+                                <li><a href="#">help!</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Menu Area End-->
+    <!--Slider Area-->
+    <div class="slider_area">
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1140px;height:450px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                <div style="position:absolute;display:block;background:url('assets/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:2px;width:900px;height:450px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="assets/img/10.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-10.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/img/11.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-11.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/img/12.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-12.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/img/13.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-13.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/img/14.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-14.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="assets/img/14.jpg" />
+                    <img data-u="thumb" src="assets/img/thumb-14.jpg" />
+                </div>
+            </div>
+            <!-- Thumbnail Navigator -->
+            <div data-u="thumbnavigator" class="jssort01-235-68" style="position:absolute;right:0px;top:0px;width:240px;height:450px;" data-autocenter="2">
+                <!-- Thumbnail Item Skin Begin -->
+                <div data-u="slides" style="cursor: default;">
+                    <div data-u="prototype" class="p">
+                        <div class="w">
+                            <div data-u="thumbnailtemplate" class="t"></div>
+                        </div>
+                        <div class="c"></div>
+                    </div>
+                </div>
+                <!-- Thumbnail Item Skin End -->
+            </div>
+            <!-- Arrow Navigator -->
+            <span data-u="arrowleft" class="jssora05l" style="top:0px;left:20px;width:40px;height:40px;" data-autocenter="2"></span>
+            <span data-u="arrowright" class="jssora05r" style="top:0px;right:260px;width:40px;height:40px;" data-autocenter="2"></span>
+        </div>
+    </div>
+    <!--Slider Area End-->
+    <!--Carousel_slider_area-->
+    <div class="carousel_slider_area wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="main_carousel_slider" class="owl-carousel">
+                        <div class="single_carousel_item"><img src="assets/img/slide_main_picture_1.png" alt="carousel picture"></div>
+                        <div class="single_carousel_item"><img src="assets/img/slide_main_picture_1.png" alt="carousel picture"></div>
+                        <div class="single_carousel_item"><img src="assets/img/slide_main_picture_1.png" alt="carousel picture"></div>
+                        <div class="single_carousel_item"><img src="assets/img/slide_main_picture_1.png" alt="carousel picture"></div>
+                        <div class="single_carousel_item"><img src="assets/img/slide_main_picture_1.png" alt="carousel picture"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Carousel_slider_area end-->
+    <!--Main Content Area-->
+    <div class="main_content_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main_content">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="content_right wow fadeInLeft">
+                                    <div class="single_content primary">
+                                        <a href="#" target="_blank">তথ্য প্রযুক্তির কল্যাণে ২০২৫ সালের মধ্যে বাংলাদেশ হবে মধ্যম আয়ের দেশ।</a>
+                                        <h3>মোঃ সোহরাব হোসেন শুভ</h3>
+                                        <h4>চেয়ারম্যান, ওয়ার্ল্ড আইটি ফাউন্ডেশন</h4>
+                                        <div class="content_pic"><img src="assets/img/content-primary.jpg" alt="content-primary-picture"></div>
+                                        <div class="content_details">
+                                            <p>
+                                                তথ্য প্রযুক্তির নতুন দিগন্ত ওয়ার্ল্ড আইটি ফাউন্ডেশন। ডিজিটাল বাংলাদেশ গড়তে এবং ১কোটি মানুষের কর্মসংস্থান সৃষ্টির লক্ষ্যে ১৯৯৮ সাল থেকে গুটি গুটি পায়ে এগিয়ে চলছে ওয়ার্ল্ড আইটি ফাউন্ডেশন। ২০০৭ সাল থেকে The Society Registration ACT-1860 (ACT XXI OF 1860) এর আওতায় সেবামূলক কাজের জন্য সরকারি অনুমোদন নিয়ে দেশের বহু বেকার তরুণ-তরুণীদের তথ্যপ্রযুক্তি ভিত্তিক শিক্ষা বৃত্তি প্রদানের মাধ্যমে আইটি শিক্ষায় শিক্ষিত করে দেশের আত্ম-কর্মসংস্থানের পথ দেখিয়ে দিয়েছে ওয়ার্ল্ড আইটি ফাউন্ডেশন।নীরবে-নিভৃতে এই প্রতিষ্ঠান কাজ করে যাচ্ছে দেশের তৃণমূল পর্যায় থেকে শুরু করে রাজধানী ঢাকার বুকে। সমগ্র বাংলাদেশে ওয়ার্ল্ড আইটি ফাউন্ডেশন এর প্রায় ৪৯০(চার শত নব্বই) টির উপরে ব্রাঞ্চ রয়েছে।</p>
+                                            <a href="#" class="readmore_btn">read more</a>
+                                        </div>
+                                    </div>
+                                    <div class="single_content">
+                                        <a href="#" target="_blank" class="title">World Information Technology Foundation</a>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="content_pic">
+                                                    <a href="#"><img src="assets/img/content-picture.png" alt="content-picture"></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <div class="content_details">
+                                                    <p>World Information Technology Foundation has proposed for Regional Center at every Thana in Bangladesh. We have got registration from Joint stock companies and firms (Regd. No. S-8026(47)/08), Government of the People Republic of Bangladesh permit us to setup FIVE HUNDRED AND FIFTY EIGHT WITF Regional Center in Bangladesh. We will provide free training for every Regional Director and their own Instructors in any ICT curriculum by our specialist Engineers.They have vast knowledge</p>
+                                                    <a href="#" class="readmore_btn">read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single_content">
+                                        <a href="#" target="_blank" class="title">Some Information About Our Success...</a>
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3">
+                                                <div class="content_pic">
+                                                    <a href="#"><img src="assets/img/content-picture.png" alt="content-picture"></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9 col-sm-9">
+                                                <div class="content_details">
+                                                    <p>The World is becoming a digital planet with Information technology and ICT. Almost every step in a state is running to become an Information technology based society by 2012.Bangladesh cannot remain out of it. We must build a digital Bangladesh and establish an information Technology and ICT based society with 50 years of our independence in 2021. Work for the achievement to build Digital Bangladesh, World Information technology Foundation has proposed for Regional center</p>
+                                                    <a href="#" class="readmore_btn">read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="content_left wow fadeInRight">
+                                    <div class="search_box">
+                                        <h3>search your result</h3>
+                                        <div class="search_form">
+                                            <form action="#">
+                                                <label>Your Roll:</label>
+                                                <input type="text">
+                                                <input type="submit" value="Submit">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="award-list">WITF Gift Award List-2016</a>
+                                    <div class="sub_menu">
+                                        <h3>Sub Menu</h3>
+                                        <nav>
+                                            <ul>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/home_icon.png" alt="icon-home">home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/home_icon.png" alt="icon-home">recent Notice</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/home_icon.png" alt="icon-home">top 10 center</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/home_icon.png" alt="icon-home">carrer</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><img src="assets/img/home_icon.png" alt="icon-home">download</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="video_area"><a href="https://www.youtube.com/watch?v=cpuFglN9QGU&list=PLMz6zFFy1xLDNz37QYOONOaXosDL82fLK&index=4">World It ICT Award-2015</a>
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/zej3w7SA_gE" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="quick_links_area">
+                                        <h3>Quick Links</h3>
+                                        <nav>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">WITF Prize Tier1 2015</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">WITF Prize Tier1 2014</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">bangladesh.gov</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">forms.gov</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">mod.gov</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">bangladeshnavy.org</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">mod.gov</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="spacer30"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="gallery_area">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="gallery_title wow fadeInUp">
+                                    <h2>gallery</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer20"></div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay=".4s">
+                                    <img src="assets/img/gallery2.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery2.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay=".6s">
+                                    <img src="assets/img/gallery6.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery6.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay=".8s">
+                                    <img src="assets/img/gallery3.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery3.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer20"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay="1s">
+                                    <img src="assets/img/gallery4.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery4.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay="1.2s">
+                                    <img src="assets/img/gallery5.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery5.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single_gallery_picture wow zoomIn" data-wow-delay="1.4s">
+                                    <img src="assets/img/gallery6.jpg" alt="gallery-picture">
+                                    <div class="overlay">
+                                        <div class="overlay_table_cell">
+                                            <a href="assets/img/gallery6.jpg" class="popup"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="spacer20"></div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <a href="gallery.html" class="view_more_btn wow zoomIn" data-wow-duration="1s">view more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main Content Area End-->
+    <!--Footer Area-->
+    <div class="footer_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="wow zoomIn">Copyright � 2017 <a href="#">http://worlditfoundation.info</a> All Rights Reserved.</p>
+                    <div class="footer_menu">
+                        <nav class="wow zoomIn" data-wow-delay=".5s">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Course</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Area End-->
+
+    <!----------------------------------All Js File------------------------------>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Wow Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific Popup Js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- Slicknav Js -->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--    Jssor Slider -->
+    <script>
+      jssor_1_slider_init();
+    </script>
+        
+    <!-- active js -->
+    <script src="assets/js/active.js"></script>
+    <!--------------------------------End All Js File---------------------------->
+</body>
+</html>

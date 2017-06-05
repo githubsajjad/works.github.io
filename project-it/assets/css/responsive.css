@@ -1,0 +1,203 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.main_menu ul > li {
+  margin-left: 0;
+}  
+.search_box h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.sub_menu ul li a img {
+  margin-right: 5px;
+}  
+.sub_menu ul li a:hover img {
+  margin-right: 15px;
+}
+} /*end*/
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.main_menu {
+  display: none;
+}
+.responsive_menu_wrap {
+    display: block;
+}
+.slicknav_menu {
+  background: #c0392b none repeat scroll 0 0;
+  display: block;
+}
+.slicknav_nav ul li a {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slicknav_nav ul li a:hover, .slicknav_nav ul li a.slicknav_item:hover {
+    border-radius: 0;
+}
+.slicknav_nav ul li a.slicknav_item:hover a {
+    color: #222222;
+}
+.slicknav_nav ul li {
+    margin-bottom: 15px;
+}
+.slicknav_menu ul li .login_form input[type="submit"] {
+    background: #dddddd none repeat scroll 0 0;
+    color: #333333;
+    border: medium none;
+    font-weight: 600;
+    padding: 3px 5px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+}
+.slicknav_menu ul li .login_form input[type="submit"]:hover {
+    color: #ffffff;
+    background: #333333;
+}
+.video_area iframe {
+  height: 300px;
+}
+} /*end*/
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.gallery_area .single_gallery_picture {
+  margin-top: 20px;
+}
+.responsive_menu_wrap {
+    display: block;
+}
+.header_area {
+  margin-bottom: 210px;
+}
+.main_menu {
+  display: none;
+} 
+.slicknav_menu {
+  background: #c0392b none repeat scroll 0 0;
+  display: block;
+} 
+.slicknav_nav ul li a {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slicknav_nav ul li a:hover, .slicknav_nav ul li a.slicknav_item:hover {
+    border-radius: 0;
+}
+.slicknav_nav ul li a.slicknav_item:hover a {
+    color: #222222;
+}
+.slicknav_nav ul li {
+    margin-bottom: 15px;
+}
+.slicknav_menu ul li .login_form input[type="submit"] {
+    background: #dddddd none repeat scroll 0 0;
+    color: #333333;
+    border: medium none;
+    font-weight: 600;
+    padding: 3px 5px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+}
+.slicknav_menu ul li .login_form input[type="submit"]:hover {
+    color: #ffffff;
+    background: #333333;
+}
+.main_content {
+  padding: 25px 12px;
+}
+.single_content.primary a {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.single_content.primary h4, .single_content.primary h3 {
+    font-size: 14px;
+}
+.single_content a.title {
+  font-size: 14px;
+}
+.content_pic {
+  margin-bottom: 15px;
+}    
+.single_content a.readmore_btn {
+  font-size: 14px;
+}   
+.footer_area p {
+  font-size: 13px;
+}    
+.footer_menu ul li {
+  display: inline-block;
+  margin-left: 13px;
+}      
+} /*end*/
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.responsive_menu_wrap {
+    display: block;
+}
+.header_area {
+  margin-bottom: 210px;
+}
+.main_menu {
+  display: none;
+} 
+.slicknav_menu {
+  background: #c0392b none repeat scroll 0 0;
+  display: block;
+} 
+.slicknav_nav ul li a {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.slicknav_nav ul li a:hover, .slicknav_nav ul li a.slicknav_item:hover {
+    border-radius: 0;
+}
+.slicknav_nav ul li a.slicknav_item:hover a {
+    color: #222222;
+}
+.slicknav_nav ul li {
+    margin-bottom: 15px;
+}
+.slicknav_menu ul li .login_form input[type="submit"] {
+    background: #dddddd none repeat scroll 0 0;
+    color: #333333;
+    border: medium none;
+    font-weight: 600;
+    padding: 3px 5px;
+    text-transform: capitalize;
+    transition: all 0.4s ease 0s;
+}
+.slicknav_menu ul li .login_form input[type="submit"]:hover {
+    color: #ffffff;
+    background: #333333;
+}
+.main_content {
+  padding: 25px 12px;
+}
+.single_content.primary a {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.single_content.primary h4, .single_content.primary h3 {
+    font-size: 14px;
+}
+.single_content a.title {
+  font-size: 14px;
+}
+.content_pic {
+  margin-bottom: 15px;
+}    
+.single_content a.readmore_btn {
+  font-size: 14px;
+}   
+.footer_area p {
+  font-size: 13px;
+}    
+.footer_menu ul li {
+  display: inline-block;
+  margin-left: 13px;
+}
+.video_area iframe {
+  height: 300px;
+}
+} /*end*/
