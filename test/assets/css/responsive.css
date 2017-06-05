@@ -1,0 +1,124 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.slicknav_menu {
+    display: none;
+}
+.contact_icon {
+    margin-right: 8px !important;
+}
+.single_service {
+    min-height: 480px;
+}
+.single_blog .title a {
+    font-size: 16px !important;
+}
+    
+}/*end*/
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.slicknav_menu {
+    display: none;
+}
+.about_content_btn,
+.single_service,
+.single_blog {
+    margin-bottom: 70px;
+}
+    
+}/*end*/
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+.slicknav_menu {
+    display: block;
+}
+.main_menu {
+    display: none;
+}
+.about_content_btn,
+.single_service,
+.single_blog {
+    margin-bottom: 70px;
+}
+.logo {
+    float: left;
+}
+.contact_info {
+    float: none;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.responsive_mobile_menu {
+    float: right;
+    margin-top: -10px;
+    width: 150px;
+}
+.share .social {
+    margin-left: 23px;
+}
+.comments_replay h4 {
+    font-size: 14px;
+    margin-left: 0;
+}
+.single_blog_detail .tags .tag,
+.single_blog_detail .tags .share {
+    float: none;
+    margin-bottom: 15px;
+}
+.contact_icon {
+    background: #333333 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 12px;
+    text-align: center;
+    width: 60px;
+}
+.contact_list {
+    padding: 0 15px;
+}
+.contact_form textarea, .reply_form textarea, .contact_form input, .reply_form input {
+  margin-left: 0;
+  width: 100%;
+}
+
+}/*end*/
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.slicknav_menu {
+    display: block !important;
+}
+.main_menu {
+    display: none;
+}
+.about_content_btn,
+.single_service,
+.single_blog {
+    margin-bottom: 70px;
+}
+.logo {
+    float: left;
+}
+.contact_info {
+    float: none !important;
+    margin-bottom: 30px !important;
+    width: 100% !important;
+}
+.responsive_mobile_menu {
+    float: right;
+    margin-top: -10px;
+    width: 150px;
+}
+.share .social {
+    margin-left: 23px !important;
+}
+.comments_replay h4 {
+    font-size: 14px !important;
+    margin-left: 0 !important;
+}
+}/*end*/
