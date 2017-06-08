@@ -1,0 +1,96 @@
+/* Css reset code */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,700,800');
+html,body {
+    margin: 0;
+    padding: 0;
+}
+input:focus {
+    outline: none;
+}
+body {
+    color: #999999;
+    font-size: 15px;
+    font-family: 'Khula', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #373737;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+a , a:hover , a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Css reset code end */
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #888888;
+    display: block;
+    padding: 11px 15px;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.mainmenu ul li a:hover {
+  color: #ef476f;
+}
+.header-area {
+    padding: 16px 0;
+}
+.hero-area {
+padding: 150px 0;
+border-bottom: 1px solid #f6f6f6;
+}
+.hero-area h1 {
+font-size: 40px;
+line-height: 45px;
+margin-bottom: 30px;
+max-width: 498px;
+padding-top: 30px;
+}
+.boxed-btn, input[type="submit"] {
+  background-color: #ef476f;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+input[type="text"],input[type="email"],input[type="tel"],input[type="url"],input[type="password"],text-area {
+border: 1px solid #efefef;
+border-radius: 2px;
+padding: 11px 15px;
+}
+
+input[type="submit"] {
+    border: medium none;
+    margin-left: 18px;
+}
+input[type="url"] {
+  background: transparent none repeat scroll 0 0;
+}
+.website-check-form {
+  margin-top: 30px;
+}
