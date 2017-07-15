@@ -1,0 +1,268 @@
+.hero-area {
+    background-color: #3393f5;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/hero-2-bg.png);
+}
+
+.hero-area h1 {
+color: #fff;
+font-size: 50px;
+padding-top: 140px;
+line-height: 55px;
+}
+.boxed-btn, input[type="submit"] {
+    background-color: #06d6a0;
+}
+.mainmenu ul li a:hover {
+  color: #06d6a0;
+}
+
+.about-us h3 {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.about-us p {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.padding-top-0 {
+    padding-top: 0;
+}
+.service-box-2 {
+    background: #fbfbfb none repeat scroll 0 0;
+    display: table;
+    height: 250px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.service-box-2:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0;
+    transition: .5s;
+    background: #06bcfe;
+background: -moz-linear-gradient(top, #06bcfe 1%, #4186ef 100%);
+background: -webkit-linear-gradient(top, #06bcfe 1%,#4186ef 100%);
+background: linear-gradient(to bottom, #06bcfe 1%,#4186ef 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06bcfe', endColorstr='#4186ef',GradientType=0 );
+}
+
+.service-box-table-cell {
+    display: table-cell;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.service-box-2 .service-icon {
+font-size: 24px;
+margin-bottom: 25px;
+}
+.service-box-2 .service-icon i {
+    color: #4383ed;
+    transition: all 0.5s ease 0s;
+}
+.sevice-box-2 h3 {
+    transition: all 0.5s ease 0s;
+}
+.service-box-2:hover:after {
+    opacity: 1;
+}
+.service-box-2:hover h3, .service-box-2:hover .service-icon i {
+    color: #fff;
+}
+.pd80 {
+    padding: 80px 0;
+}
+
+.single-testimonial-icon {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #45c9fb;
+    display: inline-block;
+    height: 60px;
+    line-height: 57px;
+    margin-bottom: 50px;
+    width: 60px;
+}
+.single-testimonial-style2 {
+    color: #373737;
+    font-size: 18px;
+}
+.single-testimonial-style2 p {
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.single-testimonial-style2 h4 span {
+    color: #999;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.single-case-study-style2 {
+background: #ddd none no-repeat scroll center center / cover ;
+display: table;
+height: 300px;
+margin-bottom: 28px;
+width: 100%;
+}
+.case-study-table-cell {
+    display: table-cell;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+}
+.case-study-table-cell::after {
+    background: #06bcfe;
+    background: -moz-linear-gradient(top, #06bcfe 1%, #4186ef 100%);
+    background: -webkit-linear-gradient(top, #06bcfe 1%,#4186ef 100%);
+    background: linear-gradient(to bottom, #06bcfe 1%,#4186ef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06bcfe', endColorstr='#4186ef',GradientType=0 );
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scale(0.6);
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.single-case-study-style2:hover .case-study-table-cell::after {
+    opacity: .8;
+    transform: scale(1);
+    visibility: visible;
+}
+.single-case-study-style2 a.boxed-btn {
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    opacity: 0;
+}
+.single-case-study-style2 a.boxed-btn i {
+    padding-left: 5px;
+}
+.single-case-study-style2:hover .single-case-study-style2 a.boxed-btn {
+    opacity: 1;
+}
+.single-case-study-style2:hover a.boxed-btn {
+    opacity: 1;
+}
+
+.single-case-study-style2-wrapper h4 {
+    text-align: center;
+}
+.single-case-study-style2-wrapper h4 span {
+    color: #999;
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.single-case-study-style2.preview1 {
+    background-image: url(../img/case-study2-bg1.jpg);
+}
+.single-case-study-style2.preview2 {
+    background-image: url(../img/case-study2-bg2.jpg);
+}
+.single-case-study-style2.preview3 {
+    background-image: url(../img/case-study2-bg3.jpg);
+}
+
+.theme-2 .single-pricing-item {
+    border-color: #f3f3f3;
+    padding: 0;
+}
+.theme-2 .single-pricing-item .pricing-heading {
+    background-color: #fbfbfb;
+    border-bottom: medium none;
+    padding: 30px;
+}
+.theme-2 .single-pricing-item .pricing-heading .pricing-currency {
+    color: #1fa6f9;
+}
+.theme-2 .pricing-content .boxed-btn {
+    display: block;
+}
+
+.theme-2 .single-blog-item {
+    border: 1px solid #f3f3f3;
+    padding: 50px 17px;
+    transition: all .3s ease 0s;
+}
+.theme-2 .single-blog-item h3 {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.theme-2 .single-blog-item p {
+    font-size: 14px;
+    line-height: 26px;
+}
+.theme-2 .single-blog-item .blog-readmore-btn {
+    color: #06d6a0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.blog-readmore-btn i {
+    padding-left: 6px;
+}
+
+.theme-2 .single-blog-item:hover {
+    background: #fbfbfb none repeat scroll 0 0;
+}
+.cta-area.theme-2 {
+    padding: 65px 0;
+    background: #06bcfe;
+    background: -moz-linear-gradient(top, #06bcfe 1%, #4186ef 100%);
+    background: -webkit-linear-gradient(top, #06bcfe 1%,#4186ef 100%);
+    background: linear-gradient(to bottom, #06bcfe 1%,#4186ef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06bcfe', endColorstr='#4186ef',GradientType=0 );
+}
+.cta-area.theme-2 h2 {
+    color: #fff;
+    margin-bottom: 44px;
+}
+.cta-area.theme-2 a.boxed-btn {
+    background: #fff;
+    color: #333;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all .3s ease 0s;
+}
+.cta-area.theme-2 a.boxed-btn:hover {
+    background: #333;
+    color: #fff;
+}
+#single-testimonial-carousel-theme-2 .owl-dots div.active {
+    background-color: #2ecc71;
+}
+
+.footer-widget-area.theme-2 a:hover {
+    color: #2ecc71
+}
+.footer-widget-area.theme-2 .footer-logo {
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 12px;
+}
+.footer-widget-area.theme-2 p {
+    line-height: 27px;
+}
+.footer-widget-area.theme-2 .social-area li a i {
+    padding-right: 10px;
+}
