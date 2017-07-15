@@ -1,0 +1,126 @@
+html, body, .home-page-hero-area-4, .single-slide-item {
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+body {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.single-slide-item {
+    display: table;
+    width: 100%;
+}
+.slide-item-wrapper {
+    color: #fff;
+    display: table-cell;
+    font-weight: 400;
+    vertical-align: middle;
+    width: 100%;
+}
+.video-play-btn {
+    background-color: #17d9a6;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 17px;
+    padding-left: 3px;
+    padding-top: 2px;
+    width: 70px;
+}
+.tile-gallery {
+    padding-right: 20px;
+    position: relative;
+}
+.gallery-img-absolute {
+    left: 0;
+    position: absolute;
+    top: 80px;
+}
+.tile-gallery img {
+    border-radius: 3px;
+    box-shadow: 0 7px 5px #d5d5d5;
+}
+.inline-block-btn {
+    color: #17d9a6;
+    display: inline-block;
+    font-weight: 600;
+    padding-top: 15px;
+    transition: all 0.3s ease 0s;
+}
+.inline-block-btn:hover {
+    color: #17d9a6;
+}
+.service-icon {
+    margin-bottom: 30px;
+}
+.service-box {
+margin-bottom: 40px;
+min-height: 200px;
+}
+.service-icon i {
+    color: #17d9a6;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.single-feature-item {
+    margin-top: 35px;
+    padding-left: 56px;
+    position: relative;
+}
+.feature-icon {
+    color: #19d9a7;
+    font-size: 35px;
+    left: 0;
+    line-height: 40px;
+    position: absolute;
+    top: -2px;
+}
+.quote-icon {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+
+.theme-4 .email-subscribe-form {
+    margin-top: 45px;
+}
+.theme-4 .email-subscribe-form input[type="email"] {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    color: #333;
+    margin-left: 0;
+}
+.theme-4 .email-subscribe-form input[type="submit"] {
+    background-color: #06d6a0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    font-weight: 400;
+    height: 46px;
+}
+
+.boxed-btn, input[type="submit"] {
+  background-color: #06d6a0;
+}
+.mainmenu ul li a:hover {
+  color: #06d6a0;
+}
+.single-service-box:hover {
+  border-color: #06d6a0;
+}
+.single-service-box:hover .service-icon i.zmdi, .single-service-box:hover h3, .single-service-box:hover a.service-readmore-btn {
+  color: #06d6a0;
+}
+
+.footer-widget-area ul li a:hover, .social-area .social-links a:hover i {
+  color: #06d6a0;
+}
