@@ -632,6 +632,9 @@ div#mobile-menu-wrap {
     text-align: center;
     margin-bottom: 20px;
 }
+.header-top {
+    padding-top: 60px;
+}
 } /*end*/
 
 /* Wide Mobile Layout: 480px. */
@@ -642,6 +645,9 @@ div#mobile-menu-wrap {
 .logo {
     text-align: center;
     margin-bottom: 20px;
+}
+.header-top {
+    padding-top: 60px;
 }
 /*Slick nav mobile menu customize*/
 div#mobile-menu-wrap {
