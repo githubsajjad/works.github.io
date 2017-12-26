@@ -185,16 +185,18 @@
 			}
 
 		});
-	// magnific popup plugin
-		 $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-		 	disableOn: 700,
-		 	type: 'iframe',
-		 	mainClass: 'mfp-fade',
-		 	removalDelay: 160,
-		 	preloader: false,
-
-		 	fixedContentPos: false
-		 });
+	/*--
+    Magnific Popup
+    ------------------------*/
+    $('.video-popup').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        zoom: {
+            enabled: true,
+        }
+    });
 
 
 
