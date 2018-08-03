@@ -1,0 +1,279 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .mainmenu li {
+        margin: 0 3px;
+    }
+    .single_price_table {
+        padding: 40px 20px;
+    }
+    .single_customer_section {
+        padding: 20px 15px;
+    }
+    .single_faqt_section {
+        padding: 30px 22px;
+    }
+    .single_faqt_section div.faqt_icon {
+        margin-right: 30px;
+    }
+    .search_section form input {
+        width: 78%;
+    }
+    .cta_section a.cta_btn {
+        padding: 12px 10px;
+        bottom: 18px;
+    }
+    .popular_tag_section a.single_tag {
+        width: 100%;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*end*/
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .blog_right_content {
+        margin-top: 50px;
+    }
+    .mainmenu li {
+        margin: 0;
+    }
+
+    .mainmenu li a {
+        font-size: 13px;
+    }
+    .downalod_button a {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .mainmenu li {
+        margin: 0;
+    }
+
+    .mainmenu li a {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .video_content {
+        background: #fff;
+        padding-left: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .mobile_screen_area h2 {
+        font-size: 28px;
+    }
+    .video_content h3 {
+        font-size: 20px;
+    }
+    .single_screenshot_slide {
+        width: 182px;
+    }
+    .single_price_table {
+        margin-bottom: 30px;
+    }
+    .single_faqt_section {
+        text-align: center;
+    }
+    .single_faqt_section div.faqt_icon {
+        margin-right: 0;
+    }
+    .single_customer_section {
+        margin-bottom: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+
+
+
+}
+
+/*end*/
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .social_icons {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .comment_bg {
+        width: 80px;
+        height: 80px;
+    }
+
+    .comment_content a.reply_btn {
+        top: auto;
+        bottom: 0;
+    }
+
+    .comment_content {
+        padding-bottom: 55px;
+    }
+    .blog_right_content {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .search_section form input {
+        width: 80%;
+    }
+
+    .popular_tag_section a.single_tag {
+        margin-right: 0px;
+        display: block;
+        width: 100%;
+    }
+
+    .video_content {
+        margin-top: 20px;
+    }
+
+    .responsive_mobile_menu .slicknav_menu {
+        display: block;
+    }
+    div#sticky-wrapper.is-sticky .header_area {
+        padding-bottom: 0;
+    }
+
+    /* mobile-menu css */
+    .responsive_mobile_menu {
+        margin-bottom: 30px;
+    }
+
+    .responsive_mobile_menu .slicknav_menu {
+        background: transparent;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .responsive_mobile_menu .slicknav_menu a.slicknav_btn {
+        background-color: #fff;
+    }
+
+    .responsive_mobile_menu .slicknav_menu .slicknav_nav {
+        background: #fff;
+        padding: 5px 10px;
+        overflow: scroll;
+        width: 300px !important;
+        position: absolute !important;
+        left: -90px !important;
+        top: 82px;
+    }
+
+    .responsive_mobile_menu .slicknav_menu .slicknav_nav li a {
+        color: #333;
+        border-radius: 0px;
+        transition: .4s;
+        text-transform: capitalize !important;
+    }
+
+    .responsive_mobile_menu .slicknav_menu .slicknav_nav li:hover a {
+        background-color: #5223B0;
+        color: #fff;
+    }
+
+    .downalod_button a {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .responsive_mobile_menu .slicknav_menu span.slicknav_icon-bar {
+        background-color: #333;
+    }
+
+    .screenshot_slides:after {
+        left: 53%;
+    }
+    .single_screenshot_slide {
+        width: 180px;
+        margin: 0 auto;
+    }
+    .single_features_content {
+        margin-bottom: 35px !important;
+    }
+
+    .mobile_screen_area h2 {
+        font-size: 20px;
+    }
+
+    .get_app_area h2 {
+        font-size: 20px;
+    }
+
+    .single_price_table {
+        margin-bottom: 30px;
+    }
+
+    .single_customer_section {
+        margin-bottom: 30px;
+    }
+
+    .single_faqt_section {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .single_faqt_section .faqt_icon {
+        margin-right: 0px !important;
+    }
+
+    .footer_widget {
+        margin-bottom: 50px;
+    }
+
+    .footer_section {
+        padding: 25px 0px;
+    }
+
+    .footer_section p {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer_section a {
+        margin-right: 8px;
+    }
+    .single_customer_section .customer_information div.customer_feedback {
+        width: 42%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*end*/
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/*end*/
